@@ -1,7 +1,12 @@
 #include<stdio.h>
 main()
 {
-    int i;
-    for(i=0;i<256;i++);
-    printf("\n%d \t %c",i,i);
+    int a;
+    a=1;
+    do
+    {
+        printf("\n%d",a);
+        a++;
+        
+    }while(a<=20);
 }
