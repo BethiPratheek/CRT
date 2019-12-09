@@ -1,13 +1,7 @@
 #include<stdio.h>
 main()
 {
- int a,b;
- printf("\n enter two values :");
- scanf("%d%d",&a,&b);
- if(a>b)
- printf("\n a is big");
- else if(b>a)
- printf("\n b is big");
- else
- printf("\n both are equal");
+int a,b;
+for(a=1,b=20;a<=20,b>=1;a++,b--)
+printf("\n %d \t %d",a,b);
 }
